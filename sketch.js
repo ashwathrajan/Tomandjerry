@@ -3,15 +3,15 @@ var tom, tomimg,tomimg2,tomimg3,tomimg4;
 var jerry, jerryimg,jerryimg2,jerryimg3,jerryimg4;
 function preload() {
     //load the images here
-    gardenimg = loadImage("images/garden.png");
-    tomimg = loadAnimation("images/cat1.png");
-    tomimg2 = loadAnimation("images/cat2.png");
-    tomimg3 = loadAnimation("images/cat3.png");
-    tomimg4 = loadAnimation("images/cat4.png");
-    jerryimg = loadAnimation("images/mouse1.png");
-    jerryimg2 = loadAnimation("images/mouse2.png");
-    jerryimg3 = loadAnimation("images/mouse3.png");
-    jerryimg4 = loadAnimation("images/mouse4.png");
+    gardenimg = loadImage("garden.png");
+    tomimg = loadAnimation("cat1.png");
+    tomimg2 = loadAnimation("cat2.png");
+    tomimg3 = loadAnimation("cat3.png");
+    tomimg4 = loadAnimation("cat4.png");
+    jerryimg = loadAnimation("mouse1.png");
+    jerryimg2 = loadAnimation("mouse2.png");
+    jerryimg3 = loadAnimation("mouse3.png");
+    jerryimg4 = loadAnimation("mouse4.png");
 }
 
 function setup(){
